@@ -1,6 +1,6 @@
 
 import './App.css';
-import Home from './Home';
+import Home from './https:/gaikwad2028.github.portfoli.github.io/';
 import About from './About';
 import Project from './Project';
 import Contact from './Contact';
@@ -11,7 +11,6 @@ function App() {
   return (
     <div className="App">
       <Navbar></Navbar>
-    
         <Routes>
       <Route exact path='/' element={<Home />} />
       <Route  exact path='/contact' element={<Contact />} />
