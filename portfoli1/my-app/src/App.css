@@ -467,12 +467,12 @@ img.logo {
   width: 21px;
 }
 .avtar {
-  width: 22em;
-  height: 24em;
+  height: 17em;
+  width: 17em;
 }
 .flip-card {
-  width: 22em;
-  height: 22em;
+  width: 17em;
+  height: 17em;
  
 }
 .titel {
@@ -492,6 +492,12 @@ input.chat{
   height: 1.5em;
   
 }
+
+p.Des {
+  font-size: 14px;
+  font-weight: 500;
+}
+
 p.na {
   font-size: 12px;
 }

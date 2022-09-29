@@ -17,7 +17,6 @@ const[Show,Setshow]=React.useState(false)
     <div className='navbar'>
     <div className='content' >
     <NavLink to='/'><img src={pic} alt="kk" className='logo' /></NavLink>
-   
      <NavLink to='/' className="border">Home</NavLink >
      <NavLink  to='/about' className="border">About</NavLink >
      <NavLink to='/Project' className="border">project</NavLink >
