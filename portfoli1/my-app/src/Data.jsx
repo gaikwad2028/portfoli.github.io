@@ -25,7 +25,8 @@ const Form=[
     "Image":"https://media.istockphoto.com/photos/biryani-picture-id1305452646?b=1&k=20&m=1305452646&s=170667a&w=0&h=1M4qIQor9-oTbDFc8osB9TKQEEMBn7j_4D1Qy7hRdNk=",
     "Name":"FODDIES",
     "description":"E-commerce(HTML,JAVASCRIPT,CSS,REACT-JS,FIGMA)",
-    "link":"https://gaikwad2028.github.io/Foodies.github.io/"
+    "link":"https://gaikwad2028.github.io/Foodies.github.io/",
+
    },
    {
     "id":6,
