@@ -1,0 +1,679 @@
+
+body {
+  background-color: rgb(44, 130, 145);
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  column-gap: 9em;
+  /* justify-content: space-around; */
+  align-items: center;
+  padding: 0em;
+  justify-content: space-around;
+  background-color: whitesmoke;
+  font-family: 'Bree Serif', serif;
+}
+
+img {
+  width: 69%;
+  text-decoration: none;
+}
+img.human {
+  width: fit-content;
+}
+p.description {
+  letter-spacing: 1px;
+  line-height: 37px;
+  margin: 0px;
+  color: orangered;
+  font-size: 18px;
+  font-family: 'Bree Serif', serif;
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.fhfh {
+  width: 88%;
+  column-gap: 50px;
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(45deg, white, transparent);
+  border: 2px solid cornflowerblue;
+  border-radius: 29px;
+  min-width: min-content;
+}
+
+.my-img {
+  display: flex;
+  align-items: center;
+}
+p.thankyou {
+  font-size: 25px;
+  font-weight: 500;
+  color: white;
+  border-bottom: 2px solid white;
+  padding: 10px;
+  font-family: 'Bree Serif', serif;
+}
+
+h1.name {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  font-family: 'Bree Serif', serif;
+}
+
+.border {
+  font-size: 23px;
+  text-decoration: none;
+  color:darkorange;
+  font-weight: 400;
+}
+
+.border:hover{
+  border-bottom: 2px solid orange;
+  cursor: pointer;
+}
+p.aim {
+  background-color: wheat;
+  padding: 5px 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 5px;
+  margin: 0px;
+  font-family: 'Bree Serif', serif;
+}
+
+p.description {
+  letter-spacing: 1px;
+  line-height: 37px;
+  margin: 0px;
+  font-family: 'Bree Serif', serif;
+}
+
+
+h1.main {
+  color: black;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 70px;
+  column-gap: 20px;
+  font-family: 'Rubik Dirt', cursive;
+}
+
+.dev-1{
+  position: relative;
+  color: white;
+}
+p.dev {
+  font-family: 'Rubik Dirt', cursive;
+  font-size: 70px;
+}
+
+.intro-2 {
+  margin-top: 13em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+p.HH {
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  font-family: 'Rubik Dirt', cursive;
+}
+
+.my-intro {
+  display: flex;
+  align-items: baseline;
+  column-gap: 1em;
+}
+
+
+
+p.dev::after {
+  content: " ";
+  position: absolute;
+  left: 0%;
+ width: 100%;
+ height: 31%;
+  border-left: 2px solid goldenrod;
+  animation: typing 3s  steps(6) infinite;
+  background-color: rgb(44, 130, 145);
+  margin: 0px 35px 0px 35px;
+}
+
+
+
+@keyframes typing{
+  100%{
+    left:100%;
+  }
+}
+
+.ham{
+  display:none;
+}
+
+.hum {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-image: repeating-linear-gradient(45deg, #0000005c, transparent 100px);
+  
+ 
+}
+
+a.linkdin {
+  color: antiquewhite;
+  margin: 0px 10px;
+}
+svg.linkdin-2 {
+  width: 5em;
+  height: 70px;
+}
+
+.follow {
+  display: flex;
+  justify-content: center;
+}
+
+.border-1{
+  margin: 5px 0px;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+    background-color: black;
+    width: 4em;
+    border: none;
+    margin: 6px auto;
+    padding: 5px 9px;
+    box-shadow: 1px 1px 11px whitesmoke
+}
+ 
+.border-1:hover{
+  color:orange
+}
+
+img {
+  width: 69%;
+}
+
+.avtar{
+  width: 500px;
+  height: 500px;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 9em;
+  margin-bottom: 5em;
+  flex-direction:row-reverse;
+}
+
+.fade{
+  animation: rotate 5s  ease-in-out infinite;
+ left:0em;
+ right: 0em;
+  position: relative;
+}
+
+@keyframes rotate{
+  
+  50%{
+   left:-120px
+  }
+  100%{
+    right: 120px;
+  }
+}
+
+img.let {
+  width: 85%;
+  filter: drop-shadow(2px 4px 6px black);
+}
+
+
+.form-1 {
+ 
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-des {
+  text-align: justify;
+  font-size: 13px;
+  color: darkblue;
+  
+}
+user agent stylesheet
+
+
+.ok-1 {
+  display: grid;
+}
+
+input.chat {
+  width: 29em;
+  height: 2em;
+  font-size: 20px;
+  color: brown;
+  border-radius: 5px;
+  border:1px solid blue;
+}
+
+textarea.message {
+  width: 29em;
+  height: 13em;
+  font-size: 20px;
+}
+.contact-des-1 {
+  background-color: aliceblue;
+  padding: 4em;
+  box-shadow: 0px 0px 19px whitesmoke;
+  border-radius: 8px;
+  z-index: 1;
+}
+
+
+button.sub {
+  display: block;
+  padding: 5px 20px;
+  margin-top: 10px;
+  color: #acff00;
+  background-image: linear-gradient(45deg, #163699, #2da1be);
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+}
+.sub:hover{
+  cursor: pointer;
+  color: white;
+}
+
+
+.flip-card {
+ 
+  width: 500px;
+  height: 500px;
+  perspective: 1000px;
+  filter: drop-shadow(2px 8px 11px ,white);
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+} 
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+} 
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+} 
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+  font: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+p.Des {
+  font-size: 24px;
+  font-weight: 500;
+  
+}
+
+.titel{
+  font-size: 40px;
+  background-color:black;
+  padding: 5px 20px;
+}
+
+.mm{
+  background-color: orange;
+  padding: 7px 35px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.mm:hover{
+    
+  background-color: white;
+  color:orange
+}
+
+
+.components{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+  .list {
+    margin: 3em;
+}
+
+.st{
+  color: #163699;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+/* 
+@media only screen and (max-width: 1200px) {
+  .fhfh {
+    display: flex;
+  }
+  
+} */
+
+
+
+@media only screen and (max-width: 600px) {
+
+  .ham{
+    display:block;
+    margin-right: 34px;
+  }
+  .content{
+    column-gap: 1em;
+    justify-content: space-between;
+  }
+  .border{
+    font-size: 14px;
+  }
+
+  .my-intro {
+    display: block;
+}
+h1.main {
+  font-size: 26px;
+}
+p.dev {
+  font-size: 28px;
+}
+p.dev::after{
+  height: 100%;
+  width: 70%;
+}
+@keyframes typing {
+  100%{
+    left: 70%;
+  }
+}
+.my-img {
+  
+  justify-content: center;
+}
+
+.fhfh {
+  display: block;
+  width: 50%;
+}
+
+h1.name {
+  font-size: 23px;
+}
+img.human {
+  width: 14em;
+}
+p.description {
+  font-size: 14px;
+  line-height: 20px;
+}
+p.thankyou {
+  font-size: 14px;
+  color: orange;
+}
+
+p.HH {
+  font-size: 17px;
+}
+img.logo {
+  width: 21px;
+}
+.avtar {
+  width: 22em;
+  height: 24em;
+}
+.flip-card {
+  width: 22em;
+  height: 22em;
+ 
+}
+.titel {
+  font-size: 27px;
+  background-color: black;
+  padding: 5px 20px;
+}
+h1.tell-me {
+  font-size: 10px;
+}
+.contact-des-1{
+  padding: 10px;
+}
+input.chat{
+  width: 200px;
+  min-width: 200px;
+  height: 1.5em;
+  
+}
+p.na {
+  font-size: 12px;
+}
+textarea.message {
+  width: 200px;
+  min-width: 200px;
+  height: 200px;
+  height: 1.5em;
+  
+}
+.fade {
+  display: none;
+}
+a.border {
+  display: none;
+}
+  .logo{
+    margin-left: 34px;
+  }
+
+  button.sub{
+    font-size: 14px;
+  }
+}
+
+
+@media only screen and (min-width: 600px) {
+
+ 
+  .content {
+    column-gap: 1em;
+  
+}
+
+.contact-des-1 {
+  padding: 2em;
+  justify-content: center;
+}
+input.chat{
+  width: 21em;
+}
+textarea.message {
+  width: 21em;
+  height: 10em;
+}
+.fade {
+  display: none;
+}
+h1.tell-me {
+  font-size: 20px;
+}
+
+h1.main {
+  font-size: 31px;
+}
+p.dev {
+  font-size: 36px;
+}
+@keyframes typing {
+  100%{
+    left: 100%;
+  }
+}
+p.description {
+  font-size: 15px;
+}
+
+img.human {
+ 
+  width: 80%;
+}
+
+.my-img {
+  justify-content: center;
+}
+
+.fhfh {
+  display: block;
+  width: 80%;
+}
+p.thankyou {
+  font-size: 14px;
+  color: orange;
+}
+
+
+}
+
+
+@media only screen and (min-width: 768px) {
+
+  .list{
+    filter: drop-shadow(0px 0px 5px ,blue);
+  }
+
+  .content{
+    column-gap: 4em;
+  }
+  h1.main{
+    font-size: 25px;
+  }
+  .flip-card {
+
+    filter: drop-shadow(2px 4px 6px white);
+  }
+
+  .contact-des-1 {
+    padding: 2em;
+    justify-content: center;
+}
+.fade{
+  display: none;
+}
+  p.dev{
+    font-size: 25px;
+  }
+  
+  p.HH{
+    font-size: 20px;
+  }
+  
+.fhfh {
+  display: block;
+  padding: 1em;
+}
+h1.tell-me {
+  font-size: 22px;
+}
+textarea.message {
+  width: 26em;
+}
+input.chat{
+  width: 26em;
+}
+
+}
+
+
+
+@media only screen and (min-width: 992px) {
+  .contact {
+    padding: 2em;
+}
+.my-img {
+  justify-content: center;
+}
+img.let {
+  width: 63%;
+  
+}
+
+.fade {
+  animation: none;
+}
+h1.main{
+  font-size: 45px;
+}
+p.dev{
+  font-size: 45px;
+}
+
+p.HH{
+  font-size: 22px;
+}
+
+.fhfh {
+  display: flex;
+}
+
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+
+  .fhfh {
+    display: flex;
+}
+
+.fade{
+  display: block;
+}
+
+}
+
