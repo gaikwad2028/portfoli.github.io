@@ -16,7 +16,7 @@ export default function Home() {
       <p className="HH">I,am learning Front-end Development Javascript, Css ,Reactjs,Next-js,Figma</p>
       </div>
       <div className='follow' data-aos="fade-up"
-     data-aos-duration="3000"><a href='https://www.linkedin.com/in/gaikwad-akash-4a9b7120a/' className='linkdin'><FaLinkedin size="md" className='linkdin-2'  /></a><a href='https://www.instagram.com/akash_gaikwad2010/' className='linkdin'><FaInstagram  className='linkdin-2'  size="md" /></a></div>
+     data-aos-duration="3000"><a href='https://www.linkedin.com/in/gaikwad-akash-4a9b7120a/' className='linkdin'><FaLinkedin size="md" className='linkdin-2'  /></a><a href='/' className='linkdin'><FaInstagram  className='linkdin-2'  size="md" /></a></div>
     </div>
   )
 }
