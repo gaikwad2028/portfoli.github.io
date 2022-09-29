@@ -1,6 +1,6 @@
 
 import './App.css';
-import Home from './https:/gaikwad2028.github.portfoli.github.io/';
+import Home from './https:/gaikwad2028.github.portfoli.github.io/Home.js';
 import About from './About';
 import Project from './Project';
 import Contact from './Contact';
